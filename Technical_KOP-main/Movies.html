@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Welcome to the Movies Page</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <style>
+        body {
+            background-image: url('movies_background.jpg'); /* Set the background image */
+            background-size: cover; /* Cover the entire viewport */
+            background-repeat: no-repeat; /* Prevent image repetition */
+            background-attachment: fixed; /* Fixed background image */
+            margin: 0; /* Remove default margin */
+            padding: 0; /* Remove default padding */
+            color: #ffffff; /* Set text color to white */
+            font-family: Arial, sans-serif; /* Set font family for text */
+            text-align: center; /* Center text content */
+            display: flex; /* Use flexbox for centering content */
+            justify-content: center;
+            align-items: center;
+            height: 100vh; /* Set the height of the body to the viewport height */
+        }
+        .page {
+            background-color: rgba(0, 0, 0, 0.6); /* Add a semi-transparent background for better readability */
+            max-width: 1000px; /* Limit the width of the content */
+            padding: 10px; /* Increase padding to enlarge content */
+        }
+        .title {
+            font-size: 50px; /* Increase title font size for emphasis */
+        }
+        p {
+            margin: 40px 0; /* Add spacing between paragraphs */
+            font-size: 20px; /* Increase paragraph font size */
+        }
+        button {
+            margin-top: 80px; /* Add spacing above buttons */
+            padding: 30px 100px; /* Increase button padding */
+            font-size: 40px; /* Increase button font size */
+            background-color: #0078d4; /* Change button background color */
+            color: #ffffff; /* Set button text color to white */
+            border: none; /* Remove button border */
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0056b3; /* Darken button color on hover */
+        }
+        .disclaimer {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="page">
+        <h1 class="title">Welcome to the Movies Page</h1>
+        <p>Disclaimer: Respect Copyright Laws</p>
+        <p>Due to the unavailability of workspace, we can only provide information about legitimate sources for watching or downloading movies.</p>
+        <p>We encourage you to support filmmakers and content creators by using legal and authorized platforms to access movies and entertainment content.</p>
+        <p>For legal sources to watch movies, consider using platforms like Netflix, Amazon Prime Video, Hulu, Disney+, and more.</p>
+        
+        <!-- Add a button to redirect to the links.html page -->
+        <button onclick="window.location.href='links.html'">Go to Links</button>
+        
+        <!-- Add a button to redirect to the Anime.html page -->
+        <button onclick="window.location.href='anime.html'">Anime</button>
+        
+    </div>
+</body>
+</html>
